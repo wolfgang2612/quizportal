@@ -1,0 +1,6 @@
+todo
+can signup with same email under student and faculty - fixed
+implement profile page - done
+$_SESSION["isfac"] exists! use it everywhere instead of $isfac manual - halfway
+send notification email when quiz is created to students
+implement countdown timer on quiz page

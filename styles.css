@@ -1,0 +1,170 @@
+.mainbody{
+	background-color: powderblue;
+    padding-top: 50px;
+    font-family:garamond;
+    overflow: scroll;
+}
+
+.restbody{
+    background-color: powderblue;
+    font-family:garamond;
+    overflow: scroll;
+}
+
+.mycontainer{
+    width: 1200px;
+    margin : auto;
+}
+
+.bookroom{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #333;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.bookroom a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    float: center;
+    padding: 15px;
+}
+
+.bookroom a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.createquiz{
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-right: 8%;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #333;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.createquiz a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    float: center;
+    padding: 15px;
+}
+
+.createquiz a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.login{
+    text-align:center;
+    margin: auto;
+    width: 100%;
+    font-size:150%;
+    background-color: grey;
+    color: black;
+}
+
+.quiz{
+    margin: auto;
+    width: 100%;
+    font-size:150%;
+    color: black;
+}
+
+.resetpw{
+    text-align:center;
+    margin: auto;
+    width: 100%;
+    font-size:150%;
+    color: black;
+}
+
+.heading{
+	text-align:center;
+	font-size:300%;
+}
+
+.greet{
+    padding-left: 15px;
+    font-size: 150%;
+    text-align:center;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav button{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav button:hover{
+    background-color: #111;
+    color: white;
+}
+
+.topnav button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav-right{
+    float: right;
+}
+
+.error{
+    color: red;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align:center;
+}
+
+.success{
+    color: green;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align:center;
+}

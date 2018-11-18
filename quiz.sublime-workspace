@@ -1,0 +1,699 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fr",
+				"friday"
+			],
+			[
+				"th",
+				"thursday"
+			],
+			[
+				"che",
+				"chef_id"
+			],
+			[
+				"date",
+				"date_diff"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"q",
+				"qdateyes"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"qdtae",
+				"qdateyes"
+			],
+			[
+				"date_in",
+				"date_interval_create_from_date_string"
+			],
+			[
+				"datei",
+				"date_interval_create_from_date_string"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"quiz",
+				"quiztime"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"errr",
+				"error"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"reset",
+				"resetpw"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"qu",
+				"question_id"
+			],
+			[
+				"cou",
+				"course"
+			],
+			[
+				"cour",
+				"course_id"
+			],
+			[
+				"st",
+				"student"
+			],
+			[
+				"stu",
+				"student_id"
+			],
+			[
+				"bui",
+				"building"
+			],
+			[
+				"room",
+				"roomNumber"
+			],
+			[
+				"build",
+				"buildSel"
+			],
+			[
+				"bl",
+				"blockSubmit"
+			],
+			[
+				"te",
+				"tempString"
+			],
+			[
+				"temp",
+				"tempFunc"
+			],
+			[
+				"bin",
+				"bintohex32"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"err",
+				"errcode"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"de",
+				"denyRoom"
+			],
+			[
+				"fa",
+				"facultyID"
+			],
+			[
+				"roo",
+				"roomID"
+			],
+			[
+				"book",
+				"bookDate"
+			],
+			[
+				"eq",
+				"equipmentID"
+			],
+			[
+				"stud",
+				"studentID"
+			],
+			[
+				"Pr",
+				"ProductForm"
+			],
+			[
+				"Pro",
+				"ProductForm"
+			],
+			[
+				"pro",
+				"product_detail_view"
+			],
+			[
+				"Cus",
+				"Customer_Id"
+			],
+			[
+				"P",
+				"Product_Id"
+			],
+			[
+				"Customer_",
+				"Customer_Id"
+			],
+			[
+				"jo",
+				"Job_Id"
+			],
+			[
+				"job",
+				"JOB"
+			],
+			[
+				"E",
+				"Employee_Id"
+			],
+			[
+				"nam",
+				"Name"
+			],
+			[
+				"lo",
+				"LOCATION"
+			],
+			[
+				"n",
+				"Name"
+			],
+			[
+				"emp",
+				"EMPLOYEE"
+			],
+			[
+				"dep",
+				"DEPARTMENT"
+			],
+			[
+				"s",
+				"Salary"
+			],
+			[
+				"J",
+				"Job_Id"
+			],
+			[
+				"last",
+				"lastname"
+			],
+			[
+				"first",
+				"firstname"
+			],
+			[
+				"CUS",
+				"CustomerID"
+			],
+			[
+				"Loa",
+				"LoanID"
+			],
+			[
+				"ACCOUNT",
+				"AccountID"
+			],
+			[
+				"tr",
+				"TransactionID"
+			],
+			[
+				"user_",
+				"user_id"
+			],
+			[
+				"profile",
+				"profile_id"
+			],
+			[
+				"autos",
+				"autos_id"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"unset",
+				"session_unset"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"h",
+				"human"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"max",
+				"maxflow"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"mst",
+				"mstparent"
+			],
+			[
+				"min",
+				"minCost"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/Projects/Quiz"
+	],
+	"file_history":
+	[
+		"/var/www/html/Projects/Quiz/uploads/CS322$2018-11-20 03:49:00",
+		"/var/www/html/Projects/Quiz/quiz.php",
+		"/home/ashutosh/Desktop/remap",
+		"/home/ashutosh/Documents/csv upload php.csv",
+		"/home/ashutosh/Desktop/memfile.txt",
+		"/home/ashutosh/1601CS11.sql",
+		"/var/www/html/Projects/Quiz/index.php",
+		"/var/www/html/Projects/Quiz/todo.txt",
+		"/var/www/html/Projects/Quiz/styles.css",
+		"/var/www/html/Projects/Quiz/contact.php",
+		"/var/www/html/Projects/Quiz/upload.php",
+		"/var/www/html/Projects/Quiz/fileupload.php",
+		"/var/www/html/Projects/Quiz/quiz.sql",
+		"/var/www/html/Projects/Quiz/manual.php",
+		"/var/www/html/Projects/Quiz/create.php",
+		"/var/www/html/Projects/Quiz/login.php",
+		"/var/www/html/Projects/Quiz/signup.php",
+		"/etc/php/7.0/apache2/php.ini",
+		"/var/www/html/Projects/IITP Booking Portal/room.php",
+		"/var/www/html/Projects/Quiz/uploads/CS322$2018-11-27 15:45",
+		"/var/www/html/Projects/Quiz/uploads/oraclexe-gettingstarted.desktop",
+		"/var/www/html/Projects/Quiz/uploads/pls",
+		"/home/ashutosh/Documents/pls",
+		"/var/www/html/Projects/Quiz/uploads/trial upload php.txt",
+		"/home/ashutosh/Documents/trial upload php",
+		"/var/www/html/php info/index.php",
+		"/var/www/html/Projects/php info/index.php",
+		"/var/www/html/Projects/Basic CRUD/edit.php",
+		"/var/www/html/Projects/Quiz/profile.php",
+		"/var/www/html/Projects/Quiz/resetpw.php",
+		"/var/www/html/Projects/Quiz/Untitled Document",
+		"/var/www/html/Projects/Quiz/navbar.php",
+		"/var/www/html/Projects/Basic CRUD/index.php",
+		"/var/www/html/Projects/Basic CRUD/error.php",
+		"/var/www/html/Projects/IITP Booking Portal/index.php",
+		"/var/www/html/Projects/Quiz/pdo.php",
+		"/var/www/html/Projects/Basic CRUD/search.php",
+		"/var/www/html/Projects/Basic CRUD/pdo.php",
+		"/var/www/html/error.php",
+		"/var/www/html/Projects/IITP Booking Portal/booking.sql",
+		"/var/www/html/Projects/Basic CRUD/new.php",
+		"/media/ashutosh/DATA/Downloads/logisim/assembler.cpp",
+		"/home/ashutosh/logisim/op.txt",
+		"/media/ashutosh/DATA/Downloads/logisim/op.txt",
+		"/media/ashutosh/DATA/Downloads/logisim/values.txt",
+		"/media/ashutosh/DATA/Downloads/logisim/CON",
+		"/home/ashutosh/logisim/assembler.cpp",
+		"/home/ashutosh/logisim/values.txt",
+		"/media/ashutosh/DATA/Visual studio/Projects/uva10920/uva10920/uva10920.cpp",
+		"/var/www/html/Projects/IITP Booking Portal/styles.css",
+		"/var/www/html/Projects/IITP Booking Portal/signup.php",
+		"/var/www/html/Projects/Basic CRUD/add.php",
+		"/var/www/html/Projects/IITP Booking Portal/contact.php",
+		"/var/www/html/Projects/IITP Booking Portal/login.php",
+		"/var/www/html/Projects/IITP Booking Portal/navbar.php",
+		"/var/www/html/Projects/Basic CRUD/login.php",
+		"/var/www/html/Projects/Basic CRUD/logout.php",
+		"/var/www/html/Projects/IITP Booking Portal/logout.php",
+		"/var/www/html/Projects/IITP Booking Portal/pdo.php",
+		"/var/www/html/Projects/IITP Booking Portal/navbar.html",
+		"/var/www/html/Projects/JavaScript/First/index.php",
+		"/var/www/html/pdo.php",
+		"/var/www/html/index.php",
+		"/var/www/html/search.php",
+		"/var/www/html/templates.php",
+		"/home/ashutosh/dev/trydjango/src/trydjango/urls.py",
+		"/home/ashutosh/dev/trydjango/src/products/templates/products/product_detail.html",
+		"/home/ashutosh/dev/trydjango/src/products/models.py",
+		"/home/ashutosh/dev/trydjango/src/products/forms.py",
+		"/home/ashutosh/dev/trydjango/src/products/templates/products/product_create.html",
+		"/home/ashutosh/dev/trydjango/src/templates/home.html",
+		"/home/ashutosh/dev/trydjango/src/products/views.py",
+		"/home/ashutosh/dev/trydjango/src/templates/product/detail.html",
+		"/home/ashutosh/dev/trydjango/src/templates/navbar.html",
+		"/home/ashutosh/dev/trydjango/src/templates/base.html",
+		"/home/ashutosh/dev/trydjango/src/templates/contact.html",
+		"/home/ashutosh/dev/trydjango/src/pages/views.py",
+		"/home/ashutosh/dev/trydjango/src/trydjango/settings.py",
+		"/home/ashutosh/dev/trydjango/src/templates/contact",
+		"/home/ashutosh/dev/trydjango/src/products/admin.py",
+		"/var/www/html/script.js",
+		"/var/www/html/login.php",
+		"/var/www/html/jquery.js",
+		"/home/ashutosh/1601CS06_LAB9.sql",
+		"/home/ashutosh/lab9.sql",
+		"/home/ashutosh/sakila-data.sql",
+		"/home/ashutosh/sakila-schema.sql",
+		"/home/ashutosh/1601CS06_LAB8.sql",
+		"/var/www/html/view.php",
+		"/var/www/html/new.php",
+		"/var/www/html/logout.php",
+		"/var/www/html/delete.php",
+		"/var/www/html/edit.php",
+		"/home/ashutosh/lab8.sql",
+		"/home/ashutosh/lab7.sql",
+		"/home/ashutosh/1601CS06_Lab6.sql",
+		"/home/ashutosh/lab6.sql",
+		"/home/ashutosh/1601CS06_LAB5.sql",
+		"/home/ashutosh/lab4.sql",
+		"/home/ashutosh/lab5.sql",
+		"/home/ashutosh/SP.sql",
+		"/var/lib/mysql-files/op.csv",
+		"/home/ashutosh/first.cpp",
+		"/var/www/html/add.php",
+		"/home/ashutosh/.cache/.fr-uCPnuV/crud/delete.php",
+		"/home/ashutosh/.cache/.fr-ugkPtx/crud/edit.php",
+		"/home/ashutosh/.cache/.fr-40cWql/crud/edit.php",
+		"/home/ashutosh/.cache/.fr-UtnPy8/crud/add.php",
+		"/home/ashutosh/.cache/.fr-8CGaLd/crud/index.php",
+		"/home/ashutosh/.cache/.fr-YTUxyb/crud/index.php",
+		"/var/www/html/wtf/index.php",
+		"/home/ashutosh/.cache/.fr-Q5C9Rg/rps/index.php",
+		"/etc/apache2/apache2.conf",
+		"/var/www/html/game.php",
+		"/home/ashutosh/.cache/.fr-0FZiZ8/rps/game.php",
+		"/home/ashutosh/.cache/.fr-HFrl6O/rps/index.php",
+		"/home/ashutosh/.cache/.fr-z7YGUD/rps/bootstrap.php",
+		"/home/ashutosh/.cache/.fr-3u23GC/rps/game.php",
+		"/home/ashutosh/.cache/.fr-TyFyCM/rps/login.php",
+		"/home/ashutosh/.cache/.fr-fxauDS/rps/bootstrap.php",
+		"/home/ashutosh/.cache/.fr-qVgbek/rps/game.php",
+		"/home/ashutosh/.cache/.fr-CUFugz/rps/index.php",
+		"/home/ashutosh/.cache/.fr-s8Axmj/rps/login.php",
+		"/home/ashutosh/.cache/.fr-WALNRi/rps/bootstrap.php",
+		"/home/ashutosh/.cache/.fr-tqPkG2/crack/index.php",
+		"/home/ashutosh/.cache/.fr-1QokRL/crack/md5.php",
+		"/home/ashutosh/.cache/.fr-uDOYba/crack/makecode.php",
+		"/run/user/1000/gvfs/sftp:host=172.16.1.3/home/stud/btech/2016/cs16/ashutosh.cs16/Assignment12B.c"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"quiz",
+			"fileType",
+			"upload_tmp",
+			"\";\n",
+			"profile",
+			"user_id",
+			"();\n",
+			"\t\n",
+			"greet",
+			"border",
+			"%;\n",
+			"price",
+			"insert",
+			"))",
+			"    $",
+			"sum",
+			"dp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dp",
+			"sum"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "quiz.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
