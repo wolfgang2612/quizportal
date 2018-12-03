@@ -34,7 +34,7 @@ if(isset($_POST["account"]) && isset($_POST["password"]))
 
 		if($row === false)
 		{
-			$_SESSION["error"] = "Incorrect password.";
+			$_SESSION["error"] = "Incorrect username/password.";
 			error_log("Time: ".date("Y-m-d H:i:s")." Failed login of ".htmlentities($_POST["account"])." with password: ".htmlentities($_POST["password"])."\n","3","error.php");
 			header('Location: login.php');
 			return;
@@ -67,25 +67,42 @@ if(isset($_POST["account"]) && isset($_POST["password"]))
 </script>
 <title>Quiz - login</title>
 </head>
-<body class = "restbody">
-<h1 class = "heading">Please enter your login details:</h1>
+<body id = "LoginForm" class = "mainbody">
+<div id="navbardiv"></div>
 <?php
-	if ( isset($_SESSION['error']) ) {
-	    echo '<p class = "error">'.$_SESSION['error']."</p>\n";
+
+if ( isset($_SESSION['error']) ) {
+	    echo ('<div style = "text-align: center;" class="alert alert-danger fade in">');
+	    echo $_SESSION['error'];
+	    echo ('</div>');
 	    unset($_SESSION['error']);
 	}
 	if ( isset($_SESSION['success']) ) {
-	    echo '<p class = "success">'.$_SESSION['success']."</p>\n";
+	    echo ('<div style = "text-align: center;" class="alert alert-success fade in">');
+	    echo $_SESSION['success'];
+	    echo ('</div>');
 	    unset($_SESSION['success']);
 	}
-	
-?>
 
-<form method = "post" class = "login">
-<p>Email:</p><p><input type = "text" id = "email" name = "account" value = ""></p>
-<p>Password:</p><p><input type = "password" id = "password" name = "password" value = ""></p>
-<p style = "color: black; padding-bottom: 10px;"><input type = "submit" value = "Log In"></p>
-</form>
-<p style="text-align: center;"><a href = "index.php" style="color: red;">Cancel login</a></p>
+?>
+<div class="container">
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <p>Please enter your email and password</p>
+   </div>
+    <form id="Login" method = "post">
+        <div class="form-group">
+	        <input type="email" class="form-control" name="account" placeholder="Email Address">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Login">
+    </form>
+    </div>
+</div></div></div>
+
+
 </body>
 </html>

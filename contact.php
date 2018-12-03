@@ -21,11 +21,15 @@ session_start();
 <h2>Made by Ashutosh and Shashank</h2>
 <?php 
 	if ( isset($_SESSION['error']) ) {
-	    echo '<p class = "error">'.$_SESSION['error']."</p>\n";
+	    echo ('<div style = "text-align: center;" class="alert alert-danger fade in">');
+	    echo $_SESSION['error'];
+	    echo ('</div>');
 	    unset($_SESSION['error']);
 	}
 	if ( isset($_SESSION['success']) ) {
-	    echo '<p class = "success">'.$_SESSION['success']."</p>\n";
+	    echo ('<div style = "text-align: center;" class="alert alert-success fade in">');
+	    echo $_SESSION['success'];
+	    echo ('</div>');
 	    unset($_SESSION['success']);
 	}
 ?>

@@ -33,6 +33,13 @@ if(isset($_POST['course']) && isset($_POST['quiztime']) && isset($_POST['duratio
     }
 }
 
+if(!isset($_POST['course']) || !isset($_POST['quiztime']) || !isset($_POST['duration']) || !isset($_POST['venue']))
+{
+    $_SESSION["error"] = "All fields are required.";
+    header('Location: upload.php');
+    return;
+}
+
 $currentDir = getcwd();
 $uploadDirectory = "/uploads/";
 
@@ -72,20 +79,61 @@ if (isset($_POST['submit'])) {
             ':qt' => $qt,
             ':venue' => $_POST['venue'],
             ':duration' => $_POST['duration']));
-        /*to do - send notification email about quiz
-        $sql = "select name, email from student inner join enrolled on student.id = enrolled.student_id and enrolled.course_id = :course";
-        $stmt = $pdo->prepare($sql);
+        /*to do - send notification email about quiz*/
+
+        $stmt = $pdo->prepare('select id from quizzes where course_id = :cid and quiztime = :qt');
         $stmt->execute(array(
-            ':course' => $_POST['course']));
-        while($row = $stmt->fetch(PDO::FETCH_ASSOC))
+            ':cid' => $_POST['course'],
+            ':qt' => $qt));
+
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+        $qid = $row['id'];
+
+        $fileup = fopen($uploadPath, "r");
+        $content = fgetcsv($fileup);
+        $loop = 0;
+        $ques = 1;
+
+        foreach ($content as $value)
         {
-            $_SESSION['trial'] = $row['email'];
-            $to = $row['email'];
-            $subject = $_POST['course']." quiz";
-            $body = "Hello ".$row['name']." ! A quiz has been scheduled for ".$_POST['course']." on ".$qt." at ".$_POST['venue']." ,duration of ".$_POST['duration']." hours" ;
-            $headers = "From: ".$_SESSION['email'];
-            mail($to,$subject,$body,$headers);
-        }*/
+            if($loop == 0){$body = $value;}
+            if($loop == 1){$opt1 = $value;}
+            if($loop == 2){$opt2 = $value;}
+            if($loop == 3){$opt3 = $value;}
+            if($loop == 4){$opt4 = $value;}
+            if($loop == 5){$answer = $value;}
+            if($loop == 6){$correct = $value;}
+            if($loop == 7){$wrong = $value;}
+            if($loop == 8)
+            {
+                $stmt = $pdo->prepare('insert into questions (quiz_id, body, answer, correct, wrong, number) values("'.$qid.'" , "'.$body.'" , "'.$answer.'" , "'.$correct.'" , "'.$wrong.'" , "'.$ques.'")');
+                $stmt->execute();
+
+                $stmt = $pdo->prepare('select id from questions where quiz_id = "'.$qid.'" and number = "'.$ques.'"');
+                $stmt->execute();
+                $row = $stmt->fetch(PDO::FETCH_ASSOC);
+                $quesid = $row['id'];
+
+                $stmt = $pdo->prepare('insert into options (question_id, body, number) values("'.$quesid.'" , "'.$opt1.'" , 1)');
+                $stmt->execute();
+
+                $stmt = $pdo->prepare('insert into options (question_id, body, number) values("'.$quesid.'" , "'.$opt2.'" , 2)');
+                $stmt->execute();
+
+                $stmt = $pdo->prepare('insert into options (question_id, body, number) values("'.$quesid.'" , "'.$opt3.'" , 3)');
+                $stmt->execute();
+
+                $stmt = $pdo->prepare('insert into options (question_id, body, number) values("'.$quesid.'" , "'.$opt4.'" , 4)');
+                $stmt->execute();
+
+                $body = $value;
+                $ques = $ques + 1;
+                $loop = 0;
+            }
+            $loop = $loop + 1;
+        }   
+        fclose($fileup);
+
         $_SESSION["success"]="The file ".basename($fileName)." has been uploaded";
         header('Location: index.php');
         return;
