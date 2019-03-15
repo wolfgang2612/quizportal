@@ -108,6 +108,10 @@ else if($now < $end)
 		while($row = $stmt->fetch(PDO::FETCH_ASSOC))
 		{
 			echo '<p class = "login2">'.$row['body'].' - Marks: '.$row['correct'].' , '.$row['wrong'].'</p>';
+			if($row['hasimg'] == True)
+			{
+				echo '<p><img src="uploads/'.$row['quiz_id'].'$'.$row['number'].'"></p>';
+			}
 			echo '<form method = "post" class = "login2">';
 			$sql = $pdo->query('select * from options where question_id = '.$row['id']);
 			$bow = $sql->fetch(PDO::FETCH_ASSOC);

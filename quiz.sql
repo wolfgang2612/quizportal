@@ -60,4 +60,20 @@ question_id integer,
 body text,
 foreign key (question_id) references questions(id)
 );
+
+drop table if exists submitted;
+create table submitted(
+student_id varchar(10),
+question_id integer,
+foreign key (student_id) references student(id),
+foreign key (question_id) references questions(id)
+);
+
+drop table if exists qsubmit;
+create table qsubmit(
+student_id varchar(10),
+quiz_id integer,
+foreign key (student_id) references student(id),
+foreign key (quiz_id) references quizzes(id)
+);
 */

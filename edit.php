@@ -52,7 +52,6 @@ if(isset($_POST['endquiz']))
 {
 	$pdo->query("update quizzes set duration = 0 where id = ".$_POST['endquiz']);
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -72,11 +71,15 @@ if(isset($_POST['endquiz']))
 <body class = "mainbody">
 <?php
 	if ( isset($_SESSION['error']) ) {
-	    echo '<p class = "error">'.$_SESSION['error']."</p>\n";
+	    echo ('<div style = "text-align: center;" class="alert alert-danger fade in">');
+	    echo $_SESSION['error'];
+	    echo ('</div>');
 	    unset($_SESSION['error']);
 	}
 	if ( isset($_SESSION['success']) ) {
-	    echo '<p class = "success">'.$_SESSION['success']."</p>\n";
+	    echo ('<div style = "text-align: center;" class="alert alert-success fade in">');
+	    echo $_SESSION['success'];
+	    echo ('</div>');
 	    unset($_SESSION['success']);
 	}
 ?>
@@ -133,10 +136,10 @@ else
 
 	echo ('<p class = "greet">Course: '.$how['course_id'].' Time: '.$how['quiztime'].' Venue: '.$how['venue'].'</p>');
 
-	echo ('<form method = "post" action = "addimg.php" style = "text-align : center;">');
+	echo ('<p><form method = "post" action = "addimg.php" style = "text-align : center;">');
 	echo ('<input type = "hidden" name = "addimg" value = "'.$how['id'].'">');
 	echo ('<input type = "submit" class="btn btn-primary" value = "Add images">');
-	echo ('</form>');
+	echo ('</form></p>');
 
 	echo ('<form method = "post" style = "text-align : center;">');
 	echo ('<input type = "hidden" name = "endquiz" value = '.$_POST['editquiz'].'>');
